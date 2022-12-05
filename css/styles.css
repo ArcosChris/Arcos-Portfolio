@@ -9,21 +9,24 @@
     background: #d8d8d8;
     color: rgb(207, 182, 41);
 }
-:root{
-    --bs-fancy-blue-rgb: 0, 20, 39;
-    --bs-fancy-secondary-rgb: 112, 141, 129; 
-}
 
-.bg-fancy-blue {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-fancy-blue-rgb), 
-    var(--bs-bg-opacity)) !important;
-}
-
-.bg-fancy-secondary {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-fancy-secondary-rgb), 
-    var(--bs-bg-opacity)) !important;
+.fancy-btn{
+    --bs-btn-color: #01BAEF!important;
+    --bs-btn-border-color: #01BAEF!important;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #01BAEF!important;
+    --bs-btn-hover-border-color: #757780;
+    --bs-btn-focus-shadow-rgb: 108,117,125;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #757780;
+    --bs-btn-active-border-color: #757780;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #757780;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #757780;
+    --bs-gradient: none;
+      border: var(--bs-btn-border-width) solid #757780!important; 
+      font-weight: bolder!important;
 }
 
 body{
@@ -125,7 +128,7 @@ header:hover .centerpiece .t2{
 }
 
 header:hover .centerpiece .t3{
-    color: #97e9ff;
+    color: #01BAEF;
     transition: all 3s ease;
 }
 
@@ -140,7 +143,7 @@ header:hover .centerpiece .t3{
 }
 
 .portfolio-heading{
-    color: #97e9ff;
+    color: #01BAEF;
     border-bottom: 8px solid #ffd700;
     display: inline-block;
 }
@@ -155,6 +158,7 @@ header:hover .centerpiece .t3{
 .btn-close{
     font-size: 1.5rem!important;
     padding: 1rem!important;
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2301BAEF'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat!important;
 }
 
 /* about */

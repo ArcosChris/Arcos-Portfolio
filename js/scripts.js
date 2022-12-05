@@ -84,7 +84,8 @@ function showModal(item) {
 
     if (item.hasPreview) {
         modalFooter.classList.remove('d-none')
-        modalFooter.querySelector('.live-previe-btn').href = item.previewLink;
+        modalFooter.querySelector('.live-preview-btn').href = item.previewLink;
+        modalFooter.querySelector('.live-preview-btn').classList.add('fancy');
     }
     else {
         modalFooter.classList.add('d-none');
