@@ -37,6 +37,7 @@ body{
 header{
     padding-bottom: 100px;
     margin-bottom: 10px;
+    height: 98vh;
 }
 
 .main-background{
@@ -88,6 +89,10 @@ header{
 }
 
 .centerpiece{
+    position: absolute!important;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -65%);
     border-radius: 50%;
     border: 3px solid #fff;
     width: 300px;
@@ -283,18 +288,18 @@ header:hover .centerpiece .t3{
         font-size: calc(0.2em + 1.5vmin)!important;
     }
     .centerpiece{
-        width: 400px!important;
-        height: 400px!important;
+        width: 500px!important;
+        height: 500px!important;
         margin: 50px auto!important;
     }
     .text-container {
         margin-bottom: 20px!important;
     }
     .centerpiece-text{
-        font-size: calc(2.2em + 1.5vmin);
+        font-size: calc(2.9em + 1.5vmin);
     }
     .main-title{
-        font-size: calc(.45em + 1.5vmin)!important;
+        font-size: calc(.55em + 1.5vmin)!important;
     }    
 }
 
