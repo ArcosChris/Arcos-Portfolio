@@ -88,11 +88,14 @@ header{
     display: block;
 }
 
-.centerpiece{
-    position: absolute!important;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -60%);
+.centerpiece-container {
+    padding-top: 100px; /* Adjust padding as needed */
+    margin-bottom: 10px;
+    text-align: center;
+    z-index: 0; /* Ensure div is behind the navbar */
+}
+
+.centerpiece {
     border-radius: 50%;
     border: 3px solid #fff;
     width: 300px;
@@ -102,8 +105,8 @@ header{
     margin: 0 auto;
 }
 
-.text-container{
-    color:#fff!important;
+.text-container {
+    color: #fff!important;
     margin: 0 auto;
     width: 100%;
 }
@@ -147,13 +150,13 @@ header:hover .centerpiece .t3{
     line-height: 2.5rem;
 }
 
-.portfolio-heading{
+.projects-heading{
     color: #01BAEF;
     border-bottom: 8px solid #ffd700;
     display: inline-block;
 }
 
-.portfolio-img{
+.projects-img{
     width: 100%;
     height: 250px;
     object-fit: cover;
